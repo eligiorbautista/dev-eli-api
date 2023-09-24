@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 // Send message from the website.
 app.post('/api/send-message', async (req, res) => {
     try {
-        // Send message from Elliana coffee + sweet website.
+        // Send message from Eli Bautista's Portfolio website.
         const { newName, newEmail, newMessage } = req.body;
         const transporter = nodemailer.createTransport({
             service: 'gmail',
